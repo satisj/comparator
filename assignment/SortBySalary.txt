@@ -1,0 +1,11 @@
+package com.assignment2.ty;
+
+import java.util.Comparator;
+
+public class SortBySalary implements Comparator<Employee3> {
+	
+	@Override
+	public int compare(Employee3 o1, Employee3 o2) {
+		return (int) (o1.salary-o2.salary);
+	}
+}

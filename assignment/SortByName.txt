@@ -1,0 +1,12 @@
+package com.assignment2.ty;
+
+import java.util.Comparator;
+
+public class SortByName implements Comparator<Employee3> {
+	
+	@Override
+	public int compare(Employee3 o1, Employee3 o2) {
+		return o1.name.compareTo(o2.name);
+	}
+
+}
